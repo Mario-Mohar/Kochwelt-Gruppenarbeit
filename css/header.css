@@ -1,0 +1,72 @@
+/* ############### START CSS SECTION-HEADER ############### */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+
+.img{
+    max-width: 20vw;
+}
+
+.header-logo {
+    display: flex;
+    height: 6 vw;
+    width: 20 vw;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: flex-end;
+    align-content: flex-end;
+    border-bottom: 4px green;
+}
+
+.header-navbar a {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-bottom: 5px solid transparent;
+    color: black !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-navbar a:hover {
+    border-bottom: 5px solid rgba(0, 128, 0, 255);
+    color: rgba(0, 128, 0, 255);
+}
+
+.seperator {
+    height: 4px;
+    border-width: 0;
+    color: gray;
+    background-color: gray
+}
+
+@media (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-navbar a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ############### END CSS SECTION-HEADER ############### */

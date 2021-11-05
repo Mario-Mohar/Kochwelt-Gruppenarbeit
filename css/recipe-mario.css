@@ -1,0 +1,137 @@
+.marginTop50 {
+    margin-top: 50px;
+}
+
+.marginLeft200 {
+    margin-left: 10%;
+}
+
+.marginRight200 {
+    margin-right: 10%;
+}
+
+.marginBottom50 {
+    margin-bottom: 50px;
+}
+
+.backgroundColorGray {
+    background-color: rgb(239, 239, 239);
+}
+
+.recipeMarioHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.recipeMarioIMG {
+    min-width: 100% !important;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.recipeMarioInfoBox {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.recipeMarioInfoCard {
+    background-color: rgb(239, 239, 239);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.recipeMarioIcons {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.recipeMarioQuantity {
+    border-top: 1px solid rgb(239, 239, 239);
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.recipeMarioInput {
+    border: 1px solid rgb(239, 239, 239);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 30px;
+    width: 70px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.recipeMarioButton {
+    height: 32px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    cursor: pointer;
+}
+
+.recipeMarioButton:hover {
+    background-color: rgb(0, 97, 0);
+}
+
+.recipeMarioIngredients {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+}
+
+.recipeMarioIngredientsQuantity {
+    margin-right: 10px;
+    width: 50px;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.recipeMarioInstructionText {
+    font-size: 0.9rem;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.recipeMarioCredits {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.recipeMarioCreditsIMG {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+    .recipeMarioInfoBox {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .recipeMarioInfoCard {
+        margin-top: 10px;
+        margin-right: unset;
+    }
+}

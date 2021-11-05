@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+.footerleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10%;
+    margin-bottom: 8px;
+}
+.footerright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 10%;
+    font-size: medium;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+span {
+    font-size: small;
+}
+img {
+    max-width: 200px;
+}

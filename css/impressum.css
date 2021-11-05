@@ -1,0 +1,9 @@
+.impressum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: raleway;
+    text-align: center;
+    margin: 20px 10% 50px 10%;
+}

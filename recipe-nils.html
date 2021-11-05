@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochwelt - Rezept Nils</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Script to include HTML Templates (linked in script.js file) -->
+    <script src="script.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/recipe-nils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body onload="includeHTML()">
+
+    <!-- Header -->
+    <div w3-include-html="templates/header.html"></div>
+
+    <!--Header-Recipe-Section-->
+    <div class="recipe-header">
+        <h1> Angus-Burger mit Bacon-Streifen und Kartoffelspalten</h1>
+    </div>
+    <!--Image-Recipe-Section-->
+    <img class="image-recipe" src="img/Depositphotos_199796612_l.png" alt="img of frensch croissants">
+    <!--Info-Box-Section-->
+    <div class="info-box-section">
+        <div class="info-box-sector">
+            <img class="info-box-icon" src="img/icons/clock-regular.svg" alt=""><span>45 Min</span>
+        </div>
+        <div class="info-box-sector">
+            <img class="info-box-icon" src="img/icons/brain-solid.svg" alt=""><span>einfach</span>
+        </div>
+        <div class="info-box-sector">
+            <img class="info-box-icon" src="img/icons/calendar-alt-regular.svg" alt=""><span>27.10.2021</span>
+        </div>
+        <!--Input-Box-Section-->
+    </div>
+    <div class="seperator-content">
+        <hr>
+    </div>
+
+    <h2>Das sind die Zutaten für dieses Rezept:</h2>
+    <div class=input-box-section>
+        <div><span> Zutaten für:</span> <input id="value-portion" class="input-value pointer" type="number">
+            <button id="portion-button" class="portion-button pointer">Portionen</button>
+        </div>
+    </div>
+    <!--Ingredients-Section-->
+    <div class="ingredients-row-index" id="indgr-row-index">
+        <div class="row-left-cell">
+            <div class="ingredient-amount"><span id="value-indrg-1"><b>Menge</b></span>
+            </div>
+        </div>
+        <div class="row-inner-cell">
+            <div class="ingredient-description"><b><span>Zutaten:</span></b>
+            </div>
+        </div>
+        <div class="row-right-cell">
+            <div class="checkbox-shoppinglist">
+                <span><b>Warenkorb</b></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="ingredients-row bgr-gray" id="indgr-row-1">
+        <div class="row-left-cell">
+            <div class="ingredient-amount"><span id="value-indrg-1">450</span>
+            </div>
+            <div><span class="ingredient-unit">g</span>
+            </div>
+        </div>
+        <div class="row-inner-cell">
+            <div class="ingredient-description"><span>Hackfleisch vom Angus-Rind</span>
+            </div>
+        </div>
+        <div class="row-right-cell">
+            <div class="checkbox-shoppinglist"><img class="basket-icon" src="img/baskest.png" alt="">
+                <input id="ingrd-check-box-1" class="pointer" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="ingredients-row " id="indgr-row-2">
+        <div class="row-left-cell">
+            <div class="ingredient-amount"><span id="value-indrg-2">40</span>
+            </div>
+            <div><span>g</span>
+            </div>
+        </div>
+        <div class="row-inner-cell">
+            <div class="ingredient-description"><span>Bacon-Streifen</span>
+            </div>
+        </div>
+        <div class="row-right-cell">
+            <div class="checkbox-shoppinglist"><img class="basket-icon" src="img/baskest.png" alt="">
+                <input id="ingrd-check-box-2" class="pointer" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="ingredients-row bgr-gray" id="indgr-row-3">
+        <div class="row-left-cell">
+            <div class="ingredient-amount"><span id="value-indrg-3">1</span>
+            </div>
+            <div><span>Stück</span>
+            </div>
+        </div>
+        <div class="row-inner-cell">
+            <div class="ingredient-description"><span>Burger-Brötchen (mit Schwarzkümmel)</span>
+            </div>
+        </div>
+        <div class="row-right-cell">
+            <div class="checkbox-shoppinglist"><img class="basket-icon" src="img/baskest.png" alt="">
+                <input id="ingrd-check-box-3" class="pointer" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="ingredients-row " id="indgr-row-4">
+        <div class="row-left-cell">
+            <div class="ingredient-amount"><span id="value-indrg-4">4</span>
+            </div>
+            <div><span>Stück</span>
+            </div>
+        </div>
+        <div class="row-inner-cell">
+            <div class="ingredient-description"><span>Bacon-Streifen</span>
+            </div>
+        </div>
+        <div class="row-right-cell">
+            <div class="checkbox-shoppinglist"><img class="basket-icon" src="img/baskest.png" alt="">
+                <input id="ingrd-check-box-4" class="pointer" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="ingredients-row bgr-gray" id="indgr-row-5">
+        <div class="row-left-cell">
+            <div class="ingredient-amount"><span id="value-indrg-5">0,5</span>
+            </div>
+            <div><span>Stück</span>
+            </div>
+        </div>
+        <div class="row-inner-cell">
+            <div class="ingredient-description"><span>Rote, mittelgroße Salat-Zwiebel(n)</span>
+            </div>
+        </div>
+        <div class="row-right-cell">
+            <div class="checkbox-shoppinglist"><img class="basket-icon" src="img/baskest.png" alt="">
+                <input id="ingrd-check-box-5" class="pointer" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="ingredients-row " id="indgr-row-6">
+        <div class="row-left-cell">
+            <div class="ingredient-amount"><span id="value-indrg-6">0,5</span>
+            </div>
+            <div><span>Stück</span>
+            </div>
+        </div>
+        <div class="row-inner-cell">
+            <div class="ingredient-description"><span>Reife Fleisch- oder Ochsenherz-Tomate(n)</span>
+            </div>
+        </div>
+        <div class="row-right-cell">
+            <div class="checkbox-shoppinglist"><img class="basket-icon" src="img/baskest.png" alt="">
+                <input id="ingrd-check-box-6" class="pointer" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="ingredients-row bgr-gray" id="indgr-row-7">
+        <div class="row-left-cell">
+            <div class="ingredient-amount"><span id="value-indrg-7">2</span>
+            </div>
+            <div><span>Blatt</span>
+            </div>
+        </div>
+        <div class="row-inner-cell">
+            <div class="ingredient-description"><span>Frischer Frisee oder Eisberg-Salat</span>
+            </div>
+        </div>
+        <div class="row-right-cell">
+            <div class="checkbox-shoppinglist"><img class="basket-icon" src="img/baskest.png" alt="">
+                <input id="ingrd-check-box-7" class="pointer" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="ingredients-row " id="indgr-row-8">
+        <div class="row-left-cell">
+            <div class="ingredient-amount"><span id="value-indrg-8">3</span>
+            </div>
+            <div><span>Stück</span>
+            </div>
+        </div>
+        <div class="row-inner-cell">
+            <div class="ingredient-description"><span>Mehlig kochende Kartoffeln</span>
+            </div>
+        </div>
+        <div class="row-right-cell">
+            <div class="checkbox-shoppinglist"><img class="basket-icon" src="img/baskest.png" alt="">
+                <input id="ingrd-check-box-8" class="pointer" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="ingredients-row bgr-gray" id="indgr-row-9">
+        <div class="row-left-cell">
+            <div class="ingredient-amount"><span id="value-indrg-9">100</span>
+            </div>
+            <div><span>ml</span>
+            </div>
+        </div>
+        <div class="row-inner-cell">
+            <div class="ingredient-description"><span>Barbecue-Sauce (nach Geschmack)</span>
+            </div>
+        </div>
+        <div class="row-right-cell">
+            <div class="checkbox-shoppinglist"><img class="basket-icon" src="img/baskest.png" alt="">
+                <input id="ingrd-check-box-9" class="pointer" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="reset-shoppinglist">
+        <img class="basket-icon" src="img/baskest.png" alt="">
+        <input id="reset-button" class="reset-button pointer" type="reset">
+    </div>
+
+    <!--Info-Box-Preparation-->
+    <h2>Zubereitung:</h2>
+    <div class="info-box-section">
+        <div class="info-box-sector">
+            <img class="info-box-icon" src="img/icons/clock-regular.svg" alt=""><span>ca. 45 Minuten</span>
+        </div>
+        <div class="info-box-sector">
+            <img class="info-box-icon" src="img/icons/clock-regular.svg" alt=""><span>Gesamtzeit ca. 45
+                Minuten</span>
+        </div>
+    </div>
+
+
+
+    <!--Cooking-Instructions-->
+    <div class="cooking-instructions">
+        <span>- Für den/die Burger-patty(s) mischt Du das Hackfleich, mit Salz, Pfeffer und Mayoran.
+            Nachdem Du das Fleich bei ca. 200°C kurz angrgrillt hast, legst Du es für weitere 3 Minuten
+            in einen Bereich mit niedriger Temperatur. Danach belegst Du das/die Burger-Brötchen mit Tomate,
+            Salat und Zwiebelscheiben. Zum Schluss gibst Du neben dem fertig gegahrtem Fleisch noch einen Schuß
+            Deiner Lieblingsgrillsauce hinzu und fügst die kross angebratenen Bacon-Streifen hinzu. <br>
+            - Die Kartoffeln schneidest Du in ca. 2 cm breite Scheiben, bestreichst sie mit etwas Öl lässt Sie im
+            Ofen für ca 30 Minuten, bei 200°C Hitze garen.
+        </span>
+    </div>
+
+    <!--Section-Autor-->
+    <h2>Dieses Rezept wurde erstellt von:</h2>
+    <div class="section-autor">
+        <figure>
+            <img class="img-autor" src="img/Avatar Nils Brodersen.jpg" alt="Avatar Nils Brodersen">
+            <figcaption>Nils Brodersen</figcaption>
+        </figure>
+
+    </div>
+    <!-- Footer -->
+    <div w3-include-html="templates/footer.html"></div>
+</body>

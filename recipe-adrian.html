@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochwelt - Rezept Adrian</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Script to include HTML Templates (linked in script.js file) -->
+    <script src="script.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/recipe-adrian.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body onload="includeHTML()">
+
+    <!-- Header -->
+    <div w3-include-html="templates/header.html"></div>
+
+    <div class="marginTop50 marginBottom50 marginLeft200 marginRight200">
+        <h1>Hot Chili Lover</h1>
+        <div class="recipeAdrianHeader">
+            <img class="recipeAdrianIMG" src="img/burger-hotchili.jpg">
+        </div>
+
+        <!-- Infobox -->
+        <div class="recipeAdrianInfoBox">
+            <div class="recipeAdrianInfoCard">
+                <img class="recipeAdrianIcons" src="img/icons/clock-regular.svg">
+                <span>45 Min.</span>
+            </div>
+            <div class="recipeAdrianInfoCard">
+                <img class="recipeAdrianIcons" src="img/icons/brain-solid.svg">
+                <span>simpel</span>
+            </div>
+            <div class="recipeAdrianInfoCard">
+                <img class="recipeAdrianIcons" src="img/icons/calendar-alt-regular.svg">
+                <span>27.10.2021</span>
+            </div>
+        </div>
+
+        <!-- Quantity -->
+        <div class="recipeAdrianQuantity">
+            <span>Zutaten für</span>
+            <input type="number" class="recipeAdrianInput" placeholder="2">
+            <button class="recipeAdrianButton">Portionen</button>
+        </div>
+
+        <!-- Ingredients -->
+        <div class="backgroundColorGray recipeAdrianIngredients">
+            <div class="recipeAdrianIngredientsQuantity">500 g</div>
+            <div>Rinderhackfleisch</div>
+        </div>
+        <div class="recipeAdrianIngredients">
+            <div class="recipeAdrianIngredientsQuantity">30 g</div>
+            <div>Jalapenos (eingelegt in Scheiben)</div>
+        </div>
+        <div class="backgroundColorGray recipeAdrianIngredients">
+            <div class="recipeAdrianIngredientsQuantity">2</div>
+            <div>Burger Buns</div>
+        </div>
+        <div class="recipeAdrianIngredients">
+            <div class="recipeAdrianIngredientsQuantity">50 g</div>
+            <div>Cheddar</div>
+        </div>
+        <div class="backgroundColorGray recipeAdrianIngredients">
+            <div class="recipeAdrianIngredientsQuantity">1</div>
+            <div>Tomate</div>
+        </div>
+        <div class="recipeAdrianIngredients">
+            <div class="recipeAdrianIngredientsQuantity">1</div>
+            <div>Zwiebel</div>
+        </div>
+        <div class="backgroundColorGray recipeAdrianIngredients">
+            <div class="recipeAdrianIngredientsQuantity"></div>
+            <div>Eisbergsalat</div>
+        </div>
+        <div class="recipeAdrianIngredients">
+            <div class="recipeAdrianIngredientsQuantity"></div>
+            <div>Tabasco</div>
+        </div>
+        <div class="backgroundColorGray recipeAdrianIngredients">
+            <div class="recipeAdrianIngredientsQuantity"></div>
+            <div>Salz und Pfeffer</div>
+        </div>
+
+        <!-- Instructions -->
+        <h3>Zubereitung</h3>
+        <div class="recipeAdrianInfoBox">
+            <div class="recipeAdrianInfoCard">
+                <img class="recipeAdrianIcons" src="img/icons/clock-regular.svg">
+                <span>ca. 45 Minuten</span>
+            </div>
+            <div class="recipeAdrianInfoCard">
+                <img class="recipeAdrianIcons" src="img/icons/clock-regular.svg">
+                <span>Gesamtzeit ca. 45 Minuten</span>
+            </div>
+        </div>
+        <div class="recipeAdrianInstructionText">
+            Zwiebel und Tomate schälen und in Würfel schneiden. Die Zwiebelwürfel in einer Pfanne mit etwas
+            Butter glasig andünsten und die Tomatenwürfel hinzufügen. Bei leichter Hitze schmoren lassen,
+            bis eine dicke Soße entsteht. Nach Belieben mit Tabasco, Salz und Pfeffer würzen.
+            Das Rinderhackfleisch zu zwei Burger Patties formen, mit etwas Salz und Pfeffer bestreuen
+            und in einer Pfanne braten.
+            Die Burger Buns kurz anrösten und mit der Soße, den Patties, Jalapenos, Cheddar und Salat belegen.
+            Dazu passen Pommes Frites.
+        </div>
+
+        <!-- Credits -->
+        <h4>Rezept erstellt von</h4>
+        <div class="recipeAdrianCredits">
+            <img src="img/profile.png" class="recipeAdrianCreditsIMG">
+            <span>Adrian</span>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div w3-include-html="templates/footer.html"></div>
+
+</body>
+
+</html>

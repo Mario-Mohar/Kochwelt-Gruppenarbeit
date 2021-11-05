@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochwelt - Rezept Mario</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Script to include HTML Templates (linked in script.js file) -->
+    <script src="script.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/recipe-mario.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body onload="includeHTML()">
+
+    <!-- Header -->
+    <div w3-include-html="templates/header.html"></div>
+
+    <div class="marginTop50 marginBottom50 marginLeft200 marginRight200">
+        <h1>Lasagne</h1>
+        <div class="recipeMarioHeader">
+            <img class="recipeMarioIMG" src="img/lasagne.jpg">
+        </div>
+
+        <!-- Infobox -->
+        <div class="recipeMarioInfoBox">
+            <div class="recipeMarioInfoCard">
+                <img class="recipeMarioIcons" src="img/icons/clock-regular.svg">
+                <span>40 Min.</span>
+            </div>
+            <div class="recipeMarioInfoCard">
+                <img class="recipeMarioIcons" src="img/icons/brain-solid.svg">
+                <span>mittel</span>
+            </div>
+            <div class="recipeMarioInfoCard">
+                <img class="recipeMarioIcons" src="img/icons/calendar-alt-regular.svg">
+                <span>03.11.2021</span>
+            </div>
+        </div>
+
+        <!-- Quantity -->
+        <div class="recipeMarioQuantity">
+            <span>Zutaten für</span>
+            <input type="number" class="recipeMarioInput" placeholder="6">
+            <button class="recipeMarioButton">Portionen</button>
+        </div>
+
+        <!-- Ingredients -->
+        <div class="backgroundColorGray recipeMarioIngredients">
+            <div class="recipeMarioIngredientsQuantity">1 Zehe</div>
+            <div>Knoblauch</div>
+        </div>
+        <div class="recipeMarioIngredients">
+            <div class="recipeMarioIngredientsQuantity">1</div>
+            <div>Zwiebel</div>
+        </div>
+        <div class="backgroundColorGray recipeMarioIngredients">
+            <div class="recipeMarioIngredientsQuantity">2</div>
+            <div>Karotten</div>
+        </div>
+        <div class="recipeMarioIngredients">
+            <div class="recipeMarioIngredientsQuantity">500 g</div>
+            <div>Rinderhackfleisch</div>
+        </div>
+        <div class="backgroundColorGray recipeMarioIngredients">
+            <div class="recipeMarioIngredientsQuantity">800 g</div>
+            <div>stückige Tomaten aus der Dose</div>
+        </div>
+        <div class="recipeMarioIngredients">
+            <div class="recipeMarioIngredientsQuantity">2 TL</div>
+            <div>Oregano</div>
+        </div>
+        <div class="backgroundColorGray recipeMarioIngredients">
+            <div class="recipeMarioIngredientsQuantity">50 g</div>
+            <div>Butter</div>
+        </div>
+        <div class="recipeMarioIngredients">
+            <div class="recipeMarioIngredientsQuantity">40 g</div>
+            <div>Mehl</div>
+        </div>
+        <div class="backgroundColorGray recipeMarioIngredients">
+            <div class="recipeMarioIngredientsQuantity">500 ml</div>
+            <div>Milch</div>
+        </div>
+        <div class="recipeMarioIngredients">
+            <div class="recipeMarioIngredientsQuantity">1/4 TL</div>
+            <div>Muskatnuss gemahlen</div>
+        </div>
+        <div class="backgroundColorGray recipeMarioIngredients">
+            <div class="recipeMarioIngredientsQuantity">150 g</div>
+            <div>Lasagneplatten</div>
+        </div>
+        <div class="recipeMarioIngredients">
+            <div class="recipeMarioIngredientsQuantity">60 g</div>
+            <div>Parmesan</div>
+        </div>
+
+        <!-- Instructions -->
+        <h3>Zubereitung</h3>
+        <div class="recipeMarioInfoBox">
+            <div class="recipeMarioInfoCard">
+                <img class="recipeMarioIcons" src="img/icons/clock-regular.svg">
+                <span>ca. 40 Minuten</span>
+            </div>
+            <div class="recipeMarioInfoCard">
+                <img class="recipeMarioIcons" src="img/icons/clock-regular.svg">
+                <span>Gesamtzeit ca. 1:15 Stunden</span>
+            </div>
+        </div>
+        <div class="recipeMarioInstructionText">
+            Knoblauch fein hacken. Zwiebel und Karotten schälen und würfeln. Etwas Olivenöl in einer großen Pfanne erhitzen und die Zwiebeln, Karotten und Knoblauch anbraten. Das Rinderhackfleisch mit Hilfe eines Kochlöffels gleichmäßig anbraten. Mit Salz und Pfeffer abschmecken.
+            Dann die gehackten Tomaten hinzugeben und erneut mit Salz und Pfeffer würzen. Mit geschlossenem Deckel bei mittlerer Hitze für etwa 15-20 Min. köcheln lassen. Den getrockneten Oregano einrühren.
+            Den Ofen auf 200°C vorheizen. Für die Béchamelsauce, die Butter in einem kleinen Topf schmelzen. Mehl dazugeben und unter Rühren anrösten.
+            Nach und nach und unter ständigem Rühren kalte Milch hinzugeben und die Hitze reduzieren, für etwa 5-8 Min. Mit Muskat, Salz und Pfeffer abschmecken.
+            Den Boden der Auflaufform mit Olivenöl und danach mit einer Schicht Béchamel bedecken. Jetzt erst Lasagneblätter, dann Bolognese, mehr Béchamelsauce und Parmesan nacheinander schichten. Wiederholen, bis alle Zutaten aufgebraucht sind. Mit der restlichen Béchamel abschließen.
+            Den restlichen Parmesan hinzugeben und in einem vorgeheizten Ofen bei 200°C/390°F auf der mittleren Schiene für etwa 30-40 Min. backen, oder bis die Oberseite golden ist. In der heißen Auflaufform servieren. Guten Appetit!
+        </div>
+
+        <!-- Credits -->
+        <h4>Rezept erstellt von</h4>
+        <div class="recipeMarioCredits">
+            <img src="img/Avatar-Mario.jpg" class="recipeMarioCreditsIMG">
+            <span>Mario</span>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div w3-include-html="templates/footer.html"></div>
+
+</body>
+
+</html>
